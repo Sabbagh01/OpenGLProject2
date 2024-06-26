@@ -1,0 +1,27 @@
+Muhannad Al Sabbagh
+
+Imported packages:
+import glfw
+from OpenGL.GL import *
+from OpenGL.GLUT import *
+from OpenGL.GLU import *
+import numpy as np
+from PIL import Image
+
+
+User commands:
+# light
+click "1" to make scene night
+click "2" to return light to make it day
+ 
+# door
+click "g" to open door
+click "h" to close door
+
+# camera
+"W" "A" "S" "D"
+W, A, S and D represent up, left, down and right, respectively.
+Arrow keys will move camera face
+
+# human animation
+Hold "Enter" to make human turn his head and wave

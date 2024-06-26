@@ -1,0 +1,16 @@
+This is the first use case which is signin 
+The user begins in sign in page and they have 2 choices either go to forget password to recover their password or enter theor credintials to sign in. if credential velidation fails The user will need to re enter their information and if it succeed they will access their account
+
+ 
+
+
+
+
+This is edit portifolio use case, the user The user enters portifolio page and goes to edit portifolio they can add or delete asset and then save or discard modification
+
+This is create account user case: the user begins in create account page and enter their information. the system will validate their creditials if ot fails they will re enter their information other way new account will be created and user will be traansferred to sign in page to sign in
+
+
+This is behavioral model fpr craete account the user access the system in sign up page. the system will check every user input and make them reenter it if there is any issue. once the validation finishess account will be created and user will have to sign in
+
+This is our design of the system. Each card represent a class in our system. the user class is related to portfolio class only. then we have portfolio class which is related analyze ,asset and credit classes. asset class is related to data. and lastly credit class which is connected to data class 
